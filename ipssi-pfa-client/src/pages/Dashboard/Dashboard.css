@@ -1,0 +1,17 @@
+.item-dl-row {
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: 100px 350px 1fr 1fr 100px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--grey);
+  color: var(--white);
+  background: var(--verydark);
+}
+
+.item-dl-row:hover {
+  background: #212020;
+}
+
+.item-dl-row:last-child {
+  border-bottom: none;
+}
